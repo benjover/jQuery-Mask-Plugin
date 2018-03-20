@@ -599,7 +599,8 @@
             'H': {pattern: /[a-zA-Z0-9 ]/, recursive: true},
             'L': {pattern: /[a-zA-Z0-9, ]/, recursive: true},
             'S': {pattern: /[a-zA-Z]/},
-            'Z': {pattern: /[a-zA-Z ]/, recursive: true}
+            'Z': {pattern: /[a-zA-Z ]/, recursive: true},
+            'T': {pattern: /[0-9.,]/, recursive: true}
         }
     };
 
