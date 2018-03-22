@@ -600,6 +600,7 @@
             'L': {pattern: /[a-zA-Z0-9, ]/, recursive: true},
             'S': {pattern: /[a-zA-Z]/},
             'Z': {pattern: /[a-zA-Z ]/, recursive: true},
+            'B': {pattern: /[0-9Xx -]/, recursive: true},
             'T': {pattern: /[0-9.,]/, recursive: true}
         }
     };
